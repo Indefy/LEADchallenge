@@ -1,0 +1,36 @@
+{
+  "name": "leads",
+  "version": "0.0.1",
+  "description": "LEADS callenge",
+  "type": "module",
+  
+  "lockfileVersion": 3,
+  "requires": true,
+  "scripts": {
+    "runner": "nodemon runScript.mjs --ignore users.json ",
+    "6": "nodemon index6.js --ignore users.json ",
+    "5": "nodemon index5.mjs --ignore users.json ",
+    "4": "nodemon index4.mjs --ignore users.json ",
+    "parallel":  "nodemon index.mjs --ignore users.json ",
+    "sequence": "nodemon index2.mjs --ignore users.json ",
+    "reduce": "nodemon index3.mjs --ignore users.json "
+  },
+  "dependencies": {
+    "@ajar/marker": "^1.3.3",
+    "bluebird": "^3.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "@ajar/marker": "^1.3.3",
+    "bluebird": "^3.7.2"
+  },
+  "repository": {
+    "packages": {},
+    "url": "https://github.com/Indefy"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "'Adi Booekr'",
+  "license": "ISC"
+}

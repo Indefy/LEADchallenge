@@ -1,0 +1,14 @@
+// 1 - read the directory --> [fileNames...]
+// 2 - loop over file names array
+// 3 -    read the text file
+// 4 -    optional concat all files content into a global variable
+// 5 -    split file content into lines
+// 6 -    loop over line
+// 7 -         split each line on , into array
+// 7.5 -       if this is a new fresh user
+// 8 -             remove " charachters from full name
+// 9 -             build a user object
+// 10 -            push user object to global users array
+// 11 - write users array into a json file
+// 12 - print the number of user
+// 13 - print the benchmark time : myProcess: 32.913ms;
